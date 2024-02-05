@@ -8,6 +8,7 @@
         <th>Date Créée</th>
         <th>Actions</th>
     </tr>
+
     <?php foreach ($devis as $devis_item): ?>
     <tr>
         <td><?= $devis_item['id'] ?></td>

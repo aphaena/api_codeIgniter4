@@ -8,6 +8,11 @@
         <th>Prix</th>
         <th>Actions</th>
     </tr>
+    <?php 
+    echo "<pre>";
+    var_dump($items);
+    echo "</pre>"; 
+    ?>
     <?php foreach ($items as $item): ?>
     <tr>
         <td><?= $item['description'] ?></td>

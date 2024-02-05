@@ -1,0 +1,5 @@
+# executer les lignes ci dessous pour ajouter des données dans votre code
+
+php spark db:seed ItemSeeder
+php spark db:seed DevisSeeder
+php spark db:seed DevisItemSeeder
